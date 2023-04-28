@@ -1,0 +1,64 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.profile-page {
+  background-color: #9fa9e5;
+  padding-top: 40px;
+  height: 78.5vh;
+}
+.profile-header {
+  color: #000000;
+  padding: 20px;
+}
+
+.profile-header img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.profile-name {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.profile-designation {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.profile-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-info p {
+  margin: 0 10px;
+  font-size: 1.2rem;
+}
+
+.profile-info i {
+  margin-right: 10px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.profile-about {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.profile-about h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.profile-about p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}

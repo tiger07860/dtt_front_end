@@ -1,0 +1,27 @@
+import React from "react";
+import "../Styles/Profile.css";
+
+function Profile() {
+  return (
+    <div className="profile-page">
+      <div class="profile-header">
+        <img
+          src="data:image/png;base64,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"
+          alt="Profile Picture"
+        />
+        <h1 class="profile-name">John David</h1>
+        <h2 class="profile-designation">B.Tech | ECE | 4th Year</h2>
+        <div class="profile-info">
+          <p>
+            <i class="fas fa-envelope"></i>johnd.ec@nitj.ac.in
+          </p>
+          <p>
+            <i class="fas fa-phone"></i>+91-9028930393
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Profile;

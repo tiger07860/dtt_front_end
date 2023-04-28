@@ -1,0 +1,17 @@
+.time_table_toggle_button {
+  border-radius: 0px;
+  margin: 10px;
+  width: 100px;
+  font-size: 1rem;
+  padding: 2px 5px;
+}
+
+.time_table_toggle_button_temp {
+  border-radius: 0px;
+  margin: 10px;
+  width: 100px;
+  font-size: 1rem;
+  padding: 2px 5px;
+  background-color: #2d2155;
+  color: white;
+}
